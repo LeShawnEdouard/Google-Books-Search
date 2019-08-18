@@ -1,6 +1,7 @@
 import React from "react";
+import Nav from "react-bootstrap/Nav";
 
-function Nav() {
+function NavTab() {
   return (
     <Nav variant="tabs" defaultActiveKey="/search">
       <Nav.Item>
@@ -16,4 +17,4 @@ function Nav() {
   )
 }
 
-export default Nav;
+export default NavTab;
