@@ -6,15 +6,15 @@
   }
   
   .hero::after {
-    content: "";
+    /* content: ""; */
     display: block;
-    opacity: .4;
+    /* opacity: .4; */
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: black;
+    /* background: black; */
   }
   
   .hero * {
