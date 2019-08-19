@@ -3,20 +3,22 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/NavTabs/index";
+import NavTab from "./components/NavTabs";
+import Jumbotron from "./components/Jumbotron";
 
 
   function App() {
     return (
       <Router>
         <div>
-          <Nav />
+          <NavTab />
           <Switch>
             <Route exact path="/" component={Search} />
             <Route exact path="/search" component={Search} />
             <Route exact path="/saved_books" component={Saved} />
             <Route component={NoMatch} />
           </Switch>
+          <Jumbotron />
         </div>
       </Router>
     );

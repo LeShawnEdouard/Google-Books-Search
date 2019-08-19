@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Nav from "../components/NavTabs/index";
+import Container from 'react-bootstrap/Container';
 
 class Search extends Component {
   render() {
     return (
       <div>
-        <Nav></Nav>
+        <Container />
       </div>
     )
   }
