@@ -7,10 +7,9 @@ import Button from "react-bootstrap/Button";
 function SearchBar() {
   return (
 <Jumbotron>
-  <h1>Hello, world!</h1>
+  <h1>Book Search</h1>
   <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
+    Book
   </p>
   <p>
     <Button variant="primary">Learn more</Button>
