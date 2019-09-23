@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Hero from "../components/Hero";
 import Jumbotron from "../components/Jumbotron";
+import Results from "../components/Results";
 
 
 class Search extends Component {
@@ -11,6 +12,7 @@ class Search extends Component {
         <p>Test</p>
         </Hero>
         <Jumbotron />
+        <Results />
       </div>
     )
   }
