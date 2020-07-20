@@ -3,6 +3,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 // import "./style.css";
 
@@ -16,11 +17,16 @@ function SearchBar() {
   </p>
   <Form>
     <Col>
-      <Form.Control type="text" placeholder="Normal text" />
+      <Form.Control type="text" placeholder="Book Search" />
     </Col>
   </Form>
+  <br></br>
   <p>
-    <Button variant="primary">Learn more</Button>
+    <Row>
+      <Col>
+      <Button variant="primary">Search</Button>
+      </Col>
+    </Row>
   </p>
 </Jumbotron>
   );
