@@ -4,7 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 import Results from "../components/Results";
 
 
-class Search extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -18,4 +18,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default Home;
