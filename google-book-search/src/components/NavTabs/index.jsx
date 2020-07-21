@@ -9,10 +9,10 @@ function NavTab() {
         <Nav.Link href="/">Google Books</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="/search">Search</Nav.Link>
+        <Nav.Link href="/search">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="/saved_books">Saved Books</Nav.Link>
+        <Nav.Link href="/saved_books">Saved Books</Nav.Link>
       </Nav.Item>
     </Nav>
   )
